@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.companyBrand{
+  width: 10vw;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/Brand.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+.cover_image{
+  
+  background-image: url("../assets/coverimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.avatar{
+  background-image: url("../assets/avatar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

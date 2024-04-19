@@ -1,16 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import './components.css'
+import PButtons from './PButtons'
+import SButtons from './SButtons'
 
 const Navbar = () => {
   return (
     <div className='bg-[#FFF7E2]'>
       <nav className=' h-[10vh] flex justify-between items-center mx-[10%]'>
         <div className="companyBrand url">
-          sd
+          
         </div>
         <div className="navlinks">
-          <ul>
+          <ul className="flex gap-8">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -22,9 +24,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="loginsignin">
-          <button>Login</button>
-          <button>Sign-up</button>
+        <div className="loginsignin flex gap-5">
+          <SButtons content="Login" />
+          <PButtons content="Sign-in" />
         </div>
       </nav>
     </div>
