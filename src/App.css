@@ -1,11 +1,27 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+
 .p_button{
     background-color: #3A643B;
 }
 
-.companyBrand{
-    background-image: url(./assets/Brand.png);
-    background-color: aqua;
+.intro_tittle{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    
 }
-.companyBrand{
-    background-color: antiquewhite;
+.intro_tittle > h1{
+    /* background-color: aquamarine; */
+    
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.nunito{
+    font-family: "Nunito", sans-serif;;
 }

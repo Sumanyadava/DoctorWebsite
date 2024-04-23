@@ -1,9 +1,12 @@
 import React from 'react'
+import FindDocHeader from '../components/findDoctor/FindDocHeader'
+import FilterDoc from '../components/findDoctor/FilterDoc'
 
 const FindDoc = () => {
   return (
     <div>
-      <h1>Hii doctor</h1>
+      <FindDocHeader />
+      <FilterDoc />
     </div>
   )
 }

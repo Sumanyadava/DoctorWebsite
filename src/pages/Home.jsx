@@ -1,6 +1,6 @@
 import React from 'react'
 import Profile from '../components/Profile'
-import Intro from '../components/Intro'
+import Intro from '../components/intro/Intro'
 import Details from '../components/Details'
 
 const Home = () => {
