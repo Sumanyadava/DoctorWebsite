@@ -36,9 +36,9 @@ const Intro = () => {
           <div className="language_container flex w-[60%] justify-around">
           <LanguageTag content="English" />
 
-          <LanguageTag content="English" />
+          <LanguageTag content="Hindi" />
 
-          <LanguageTag content="English" />
+          <LanguageTag content="Telugu" />
 
           </div>
         </div>
@@ -46,21 +46,21 @@ const Intro = () => {
         <div className="socials w-[40%] p-5 flex justify-around items-center">
 
         <div className="social  rounded-full p-5 bg-[#F7F7FC] border border-[#8E8E8E] w-5 h-5 flex items-center justify-center hover:bg-gray-300">
-          <FontAwesomeIcon icon={faFacebookF} />
+          <FontAwesomeIcon icon={faFacebookF} className='text-[#3A643B]' />
         </div>
 
         
         <div className="social rounded-full p-5 bg-[#F7F7FC] border border-[#8E8E8E] w-5 h-5 flex items-center justify-center hover:bg-gray-300">
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faInstagram} className='text-[#3A643B]' />
         </div>
         
         <div className="social rounded-full p-5 bg-[#F7F7FC] border border-[#8E8E8E] w-5 h-5 flex items-center justify-center hover:bg-gray-300">
-          <FontAwesomeIcon icon={faYoutube} />
+          <FontAwesomeIcon icon={faYoutube} className='text-[#3A643B]' />
         </div>
 
         
         <div className="social rounded-full p-5 bg-[#F7F7FC] border border-[#8E8E8E] w-5 h-5 flex items-center justify-center hover:bg-gray-300">
-          <FontAwesomeIcon icon={faXTwitter} />
+          <FontAwesomeIcon icon={faXTwitter} className='text-[#3A643B]'/>
         </div>
         
         </div>

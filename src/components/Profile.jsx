@@ -2,13 +2,14 @@ import React from 'react'
 import PButtons from './buttons/PButtons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck,faStar } from '@fortawesome/free-solid-svg-icons'
+import { motion } from 'framer-motion'
 
 const Profile = () => {
   const handleClick = () => {
     alert("Booking an appointment")
   }
   return (
-    <div>
+    <motion.div animate={{x:0,scale:1}} initial={{x:-600,scale:0}} >
       <div className="profile  h-[25vh] w-[80vw] mx-[10%] my-[5%] ">
         <div className="cover_image h-[50%] w-full rounded-t-2xl">
           
@@ -53,7 +54,7 @@ const Profile = () => {
 
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -36,7 +36,7 @@ const Booking = () => {
           <SessionMode mode="In-Clinic" minutes="45 Mins" />
           <SessionMode mode="Video" minutes="45 Mins" />
 
-          <SessionMode mode="Chats" minutes="45 Mins" />
+          <SessionMode mode="Chats" minutes="20 Mins" />
         </div>
 
         

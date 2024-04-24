@@ -10,10 +10,10 @@ const Specialize = () => {
       <div className="container h-[70%] w-[70%] flex justify-around items-center overflow-hidden">
 
       
-      <Card content="Women's Health"/>
-      <Card content="Skin Care"/>
-      <Card content="Immunity"/>
-      <Card content="Hair Care" />
+      <Card content="Women's Health" imgprop="1"/>
+      <Card content="Skin Care" imgprop="2"/>
+      <Card content="Immunity" imgprop="3" />
+      <Card content="Hair Care" imgprop="4" />
 
       </div>
       </div>

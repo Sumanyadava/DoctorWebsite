@@ -6,13 +6,26 @@ import SessionMode from "../booking/SessionMode";
 import FilterRes from "./FilterRes";
 
 import FindDocCard from "./FindDocCard";
+import { motion } from "framer-motion";
 
 const FilterDoc = () => {
+
+  const fadeInAnimation = {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  }
+
   return (
     <div className="">
       <div className="filter_head h-[7vh] border flex items-center justify-evenly px-36">
         <select name="" id="" className=" p-2 rounded-lg bg-gray-200">
-          <option selected disabled>
+          <option selected disabled hidden>
             {" "}
             Expertise
           </option>
@@ -23,7 +36,7 @@ const FilterDoc = () => {
         </select>
 
         <select name="" id="" className=" p-2 rounded-lg bg-gray-200">
-          <option selected disabled>
+          <option selected disabled hidden>
             {" "}
             Gender
           </option>
@@ -34,7 +47,7 @@ const FilterDoc = () => {
         </select>
 
         <select name="" id="" className=" p-2 rounded-lg bg-gray-200">
-          <option selected disabled>
+          <option selected disabled hidden>
             {" "}
             Fees
           </option>
@@ -45,7 +58,7 @@ const FilterDoc = () => {
         </select>
 
         <select name="" id="" className=" p-2 rounded-lg bg-gray-200">
-          <option selected disabled>
+          <option selected disabled hidden>
             {" "}
             Language
           </option>
@@ -56,7 +69,7 @@ const FilterDoc = () => {
         </select>
 
         <select name="" id="" className=" p-2 rounded-lg bg-gray-200">
-          <option selected disabled>
+          <option selected disabled hidden>
             {" "}
             All filter
           </option>
@@ -74,9 +87,17 @@ const FilterDoc = () => {
       </div>
       <div className="doctor_result p-16 flex  justify-evenly ">
 
+      <motion.div variants={fadeInAnimation} initial="initial" whileInView="animate">
+
         <FindDocCard />
+        </motion.div>
+        <motion.div variants={fadeInAnimation} initial="initial" whileInView="animate">
         <FindDocCard />
+        </motion.div>
+        <motion.div variants={fadeInAnimation} initial="initial" whileInView="animate">
         <FindDocCard />
+        </motion.div>
+        
 
         <div className="cp h-28 bg-black"></div>
       </div>

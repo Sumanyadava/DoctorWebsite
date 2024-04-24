@@ -9,7 +9,7 @@ const Expe_card = () => {
       <div className="expe_card h-[40%]  mt-2 flex justify-between">
             <div className="expe_left flex ">
               <div className="expe_icon bg-[#F7F7FC] rounded-lg h-10 w-10 flex items-center justify-center text-xl mr-4">
-                <FontAwesomeIcon icon={faHouzz} />
+                <FontAwesomeIcon icon={faHouzz} className='text-blue-800'/>
               </div>
               <div className="expe_name">
                 <h2 className='text-xm text-[#333548]'>Midtown Medical Clinic</h2>
